@@ -112,6 +112,6 @@
       name: "Discord Chat",
       id: "discordchat",
       description: "Discord integration for airma.sh",
-      version: "1",
+      version: "2",
       author: "samdenty99"
     });
