@@ -72,8 +72,11 @@
       if (UI.realparseCommand === undefined) {
         UI.realparseCommand = UI.parseCommand;
         UI.parseCommand = function (message) {
-          if ("/" === message.substr(0, 1).toLowerCase()) {
+          if (message.startsWith('/')) {
             return UI.realparseCommand(message);
+          }
+          if (message.startsWith('~') {
+            return UI.realparseCommand(message.slice(1));
           }
 
           crate.emit('sendMessage', { channel: getChannel(), message })
