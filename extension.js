@@ -75,7 +75,7 @@
           if (message.startsWith('/')) {
             return UI.realparseCommand(message);
           }
-          if (message.startsWith('~') {
+          if (message.startsWith('~')) {
             return UI.realparseCommand(message.slice(1));
           }
 
