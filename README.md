@@ -1,5 +1,5 @@
 ![](https://i.imgur.com/yrncC8W.gif)
 
 ```
-https://rawgit.com/widgetbot-io/airmash-discord/master/extension.js
+https://cdn.jsdelivr.net/gh/widgetbot-io/airmash-discord/extension.js
 ```
